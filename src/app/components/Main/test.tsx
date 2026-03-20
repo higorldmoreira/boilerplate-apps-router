@@ -1,4 +1,4 @@
-import { render } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import Main from '.'
 
 describe('Main', () => {
@@ -9,5 +9,9 @@ describe('Main', () => {
 
     render(<Main />)
     //verifica se o elemento de heading está presente
+
+    expect(
+      screen.getByRole('heading', { name: /react avançado/i })
+    ).toBeInTheDocument()
   })
 })

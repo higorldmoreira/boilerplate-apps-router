@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`Main should match snapshot and theme styles 1`] = `
+.c0 {
+  display: grid;
+  gap: 8px;
+  padding-top: 8px;
+}
+
+.c1 {
+  font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+  color: #10161d;
+}
+
+.c2 {
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+<section
+  class="c0"
+>
+  <h2
+    class="c1"
+  >
+    React Avancado
+  </h2>
+  <p
+    class="c2"
+  >
+    Estrutura com App Router, styled-components, darkmode e cleanmode, pronta para crescimento do projeto.
+  </p>
+</section>
+`;
